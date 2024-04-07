@@ -3,7 +3,7 @@
 
 **@author:** Antonio Díaz.
 
-**Description:** Cross-site scripting (XSS) vulnerability in SECURITY of the SETTINGS section of WonderCMS 3.4.3 allow attackers to execute arbitrary web scripts or HTML via a crafted payload injected into several fields: 'ADMIN LOGIN URL', 'SITE LANGUAGE CONFIG' and/or 'PAGE DESCRIPTION'.
+**Description:** Cross-site scripting (XSS) vulnerability in SECURITY of the SETTINGS section of WonderCMS 3.4.3 allow attackers to execute arbitrary web scripts or HTML via a crafted payload injected into two fields: 'ADMIN LOGIN URL' and/or 'SITE LANGUAGE CONFIG'.
 
 ## PoC
 ### ADMIN LOGIN URL
