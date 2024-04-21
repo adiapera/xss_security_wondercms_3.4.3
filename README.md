@@ -5,8 +5,10 @@
 
 **Description:** Cross-site scripting (XSS) vulnerability in SECURITY of the SETTINGS section of WonderCMS 3.4.3 allow attackers to execute arbitrary web scripts or HTML via a crafted payload injected into two fields: 'ADMIN LOGIN URL' and/or 'SITE LANGUAGE CONFIG'.
 
+**CVE:** CVE-2024-32337 y CVE-2024-32743.
+
 ## PoC
-### ADMIN LOGIN URL
+### ADMIN LOGIN URL (CVE-2024-32337)
 1. Enter to SECURITY of the SETTINGS section in the webpage and in 'ADMIN LOGIN URL' set the payload:
 
 ![image](https://github.com/adiapera/xss_security_wondercms_3.4.3/assets/165512291/f1e9c1df-28fd-4555-8714-22a5a98b07e5)
@@ -16,7 +18,7 @@
 ![image](https://github.com/adiapera/xss_security_wondercms_3.4.3/assets/165512291/2de6b8bf-956c-4b96-b21d-7da4ca7b16fb)
 ![image](https://github.com/adiapera/xss_security_wondercms_3.4.3/assets/165512291/0336e36b-b1b6-46cc-927d-0d25c892e147)
 
-### SITE LANGUAGE CONFIG
+### SITE LANGUAGE CONFIG (CVE-2024-32743)
 1. Enter to SECURITY of the SETTINGS section in the webpage and in any 'SITE LANGUAGE CONFIGURATION' parameter set the payload:
 
 ![image](https://github.com/adiapera/xss_security_wondercms_3.4.3/assets/165512291/6b97b8d0-b811-4608-8dd9-b5bf125c9ba3)
