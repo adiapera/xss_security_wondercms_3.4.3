@@ -1,7 +1,7 @@
 # XSS in WonderCMS 3.4.3 (SETTINGS -> SECURITY)
 **Software link:** WonderCMS 3.4.3 [https://www.wondercms.com/download]
 
-**@author:** Antonio Díaz Pérez.
+**@author:** Antonio Díaz.
 
 **Description:** Cross-site scripting (XSS) vulnerability in SECURITY of the SETTINGS section of WonderCMS 3.4.3 allow attackers to execute arbitrary web scripts or HTML via a crafted payload injected into two fields: 'ADMIN LOGIN URL' and/or 'SITE LANGUAGE CONFIG'.
 
